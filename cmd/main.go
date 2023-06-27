@@ -4,5 +4,5 @@ import "fmt"
 
 func main() {
 
-	fmt.Println("hello hexarch")
+	fmt.Println("hello hex arch")
 }
