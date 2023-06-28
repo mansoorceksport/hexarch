@@ -22,7 +22,6 @@ services:
       MYSQL_DB: "hex_test"
       MYSQL_USER: "root"
       MYSQL_PORT: "3306"
-
     depends_on:
       - db
     command: ["go", "test", "-v", "./..."]
